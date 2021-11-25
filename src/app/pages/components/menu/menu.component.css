@@ -1,0 +1,26 @@
+#centro{
+    position: absolute;
+    top:30%;
+    /* bottom:; */
+    left:40%;
+    /* right:; */
+}
+#buscador{
+    top:0%;
+}
+#menu{
+    height: 100px;
+    background-color: white;
+}
+li{
+    color: white;
+}
+ul{
+    background-attachment: rgba(5, 217, 255, 0.993);
+}
+header{
+    color: #0275d8;
+}
+a{
+    color: #0275d8;
+}

@@ -1,0 +1,78 @@
+#S1{
+    position: absolute;
+    left: 10%;
+    right: 25%;
+    top:30%;
+}
+#S2{
+    position: absolute;
+    left:38%;
+    right: -6%;
+    top:30%;
+}
+#S3{
+    
+    position: absolute;
+    left: 66%;
+    right: -34%;
+    top: 30%;
+}
+#L1{
+    position: absolute;
+    left: 10%;
+    right: 25%;
+    top:75%;
+}
+#L2{
+    position: absolute;
+    left:38%;
+    right: -6%;
+    top:75%;
+}
+#L3{
+    
+    position: absolute;
+    left: 66%;
+    right: -34%;
+    top: 75%;
+}
+#M1{
+    position: absolute;
+    left: 10%;
+    right: 25%;
+    top:120%;
+}
+#M2{
+    position: absolute;
+    left:38%;
+    right: -6%;
+    top:120%;
+}
+#M3{
+    
+    position: absolute;
+    left: 66%;
+    right: -34%;
+    top: 120%;
+}
+h2{
+    position: absolute;
+    left: 40%;
+    color:#0275d8;
+    top: 20%;
+}
+#hL{
+    position: absolute;
+    left: 40%;
+    color:#0275d8;
+    top: 65%;
+}
+#hM{
+    position: absolute;
+    left: 40%;
+    color:#0275d8;
+    top: 110%;
+}
+h5{
+    color: #0275d8;
+}

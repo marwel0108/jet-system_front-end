@@ -1,0 +1,13 @@
+#aviso{
+    position: absolute;
+    left: 22%;
+    width: 850px;
+    height: 190px;
+}
+#logro{
+    position: absolute;
+    left: 35%;
+    top: 44%;
+    height: 290px;
+    width: 400px;
+}

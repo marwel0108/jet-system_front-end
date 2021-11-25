@@ -1,0 +1,40 @@
+<header>
+    <div class="navbar navbar-expand-lg navbar-light bg-light" id="menu">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">JET System</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="centro">
+                <h1>BIENVENIDO</h1>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                </ul>
+                <button (click)="logOut()" class="btn btn-outline-primary" type="submit">Log Out</button>
+            </div>
+        </div>
+    </div>
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+            <a [routerLink]="['/perfil']"  class="nav-link active" aria-current="page" >Perfil</a>
+        </li>
+        <li class="nav-item">
+            <a [routerLink]="['/registro-materias']"  class="nav-link active" aria-current="page" >Registro de Materias</a>
+        </li>
+        <li class="nav-item">
+            <a [routerLink]="['/planes-academicos']"  class="nav-link active" aria-current="page" >Planes Académicos</a>
+        </li>
+        <li class="nav-item">
+            <a [routerLink]="['/grupos']"  class="nav-link active" aria-current="page" > Grupos</a>
+        </li>
+        <li class="nav-item">
+            <a [routerLink]="['/horarios']"  class="nav-link active" aria-current="page" > Horarios</a>
+        </li>
+        <li class="nav-item">
+            <a [routerLink]="['/login']"  class="nav-link active" aria-current="page" > Login</a>
+        </li>
+    </ul>
+</header>
+

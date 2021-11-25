@@ -1,0 +1,49 @@
+article{
+    position: absolute;
+    left: 15%;
+    right: 10%;
+    top:25%;
+}
+aside{
+    position: absolute;
+    left:60%;
+    top:35%;
+}
+#mensaje{
+    position: absolute;
+    left: 55%;
+    top: 60%;
+    font-size: 25px;
+}
+h2{
+    position: absolute;
+    left: 10%;
+    color:#0275d8;
+    top: 20%;
+}
+h3{
+    color:#0275d8;
+}
+label{
+    font-size: 50px;
+}
+section{
+    position: absolute;
+    left: 15%;
+    top: 20%;
+    bottom: 30%;
+}
+button{
+    position: absolute;
+    top: 40%;
+}
+#alta{
+    position: absolute;
+    left: 65%;
+    top: 10%;
+}
+#baja{
+    position: absolute;
+    right: 0%;
+    top: 10%;
+}

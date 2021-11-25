@@ -1,0 +1,60 @@
+h2{
+    position: absolute;
+    left: 10%;
+    color:#0275d8;
+    top: 25%;
+}
+#nombre{
+    position: absolute;
+    left: 10%;
+    top: 31%;
+    font-size: 35px;
+}
+#grado{
+    position: absolute;
+    left: 10%;
+    color:#0275d8;
+    top: 42%;
+}
+#grado2{
+    position: absolute;
+    left: 10%;
+    top: 48%;
+    font-size: 35px;
+}
+#grupo{
+    position: absolute;
+    left: 10%;
+    color:#0275d8;
+    top: 59%;
+}
+#grupo2{
+    position: absolute;
+    left: 10%;
+    top: 65%;
+    font-size: 35px;
+}
+#carrera{
+    position: absolute;
+    left: 10%;
+    color:#0275d8;
+    top: 76%;
+}
+#carrera2{
+    position: absolute;
+    left: 10%;
+    top: 82%;
+    font-size: 35px;
+}
+#mat{
+    position: absolute;
+    left: 62%;
+    color:#0275d8;
+    top: 30%;
+}
+#tabla{
+    position: absolute;
+    left: 55%;
+    top: 40%;
+    right: -30%;
+}

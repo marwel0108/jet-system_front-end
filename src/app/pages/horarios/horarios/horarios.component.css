@@ -1,0 +1,40 @@
+#S1{
+    position: absolute;
+    left: 1%;
+    right: 25%;
+    top:30%;
+}
+#S2{
+    position: absolute;
+    left:35%;
+    right: -6%;
+    top:30%;
+}
+#S3{
+    
+    position: absolute;
+    left: 67%;
+    right: -34%;
+    top: 30%;
+}
+h2{
+    position: absolute;
+    left: 40%;
+    color:#0275d8;
+    top: 20%;
+}
+h5{
+    color: #0275d8;
+}
+img{
+    height: 50%;
+    width: 50%;
+}
+#primer{
+    height: 45%;
+    width: 45%;
+}
+#cuarto{
+    height: 40%;
+    width: 45%;
+}

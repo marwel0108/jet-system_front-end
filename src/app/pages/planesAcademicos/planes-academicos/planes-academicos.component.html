@@ -1,0 +1,141 @@
+<div>
+    <app-menu></app-menu>
+    <article>
+        <br>
+        <section>
+            <h2>Ingeniería en Software</h2>
+            <article id="S1">
+                <h5>Ciclo I</h5>
+                <div class="row">
+                    <div class="col-4">
+                        <div class="list-group" id="list-tab" role="tablist">
+                            <a *ngFor="let materia of isw[0]" class="list-group-item list-group-item-action" id="list-home-list" data-toggle="list" role="tab" aria-controls="home">
+                                <div class="input-group mb-3">
+                                    {{materia.nombre}}
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <aside id="S2">
+                <h5>Ciclo II</h5>
+                <div class="row">
+                    <div class="col-4">
+                        <div class="list-group" id="list-tab" role="tablist">
+                          <a *ngFor="let materia of isw[1]" class="list-group-item list-group-item-action" id="list-home-list" data-toggle="list" role="tab" aria-controls="home">
+                            <div class="input-group mb-3">
+                                {{materia.nombre}}
+                            </div>
+                        </a>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+            <aside id="S3">
+                <h5>Ciclo III</h5>
+                <div class="row">
+                    <div class="col-4">
+                        <div class="list-group" id="list-tab" role="tablist">
+                          <a *ngFor="let materia of isw[2]" class="list-group-item list-group-item-action" id="list-home-list" data-toggle="list" role="tab" aria-controls="home">
+                            <div class="input-group mb-3">
+                                {{materia.nombre}}
+                            </div>
+                        </a>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </section>
+        <section>
+            <h2 id="hL">Logística y Transporte.</h2>
+            <article id="L1">
+                <h5>Ciclo I</h5>
+                <div class="row">
+                    <div class="col-4">
+                        <div class="list-group" id="list-tab" role="tablist">
+                          <a *ngFor="let materia of ilt[0]" class="list-group-item list-group-item-action" id="list-home-list" data-toggle="list" role="tab" aria-controls="home">
+                            <div class="input-group mb-3">
+                                {{materia.nombre}}
+                            </div>
+                        </a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <aside id="L2">
+                <h5>Ciclo II</h5>
+                <div class="row">
+                    <div class="col-4">
+                        <div class="list-group" id="list-tab" role="tablist">
+                          <a *ngFor="let materia of ilt[1]" class="list-group-item list-group-item-action" id="list-home-list" data-toggle="list" role="tab" aria-controls="home">
+                            <div class="input-group mb-3">
+                                {{materia.nombre}}
+                            </div>
+                        </a>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+            <aside id="L3">
+                <h5>Ciclo III</h5>
+                <div class="row">
+                    <div class="col-4">
+                        <div class="list-group" id="list-tab" role="tablist">
+                          <a *ngFor="let materia of ilt[2]" class="list-group-item list-group-item-action" id="list-home-list" data-toggle="list" role="tab" aria-controls="home">
+                            <div class="input-group mb-3">
+                                {{materia.nombre}}
+                            </div>
+                        </a>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </section>
+        <section>
+            <h2 id="hM">Mecatrónica.</h2>
+            <article id="M1">
+                <h5>Ciclo I</h5>
+                <div class="row">
+                    <div class="col-4">
+                        <div class="list-group" id="list-tab" role="tablist">
+                          <a *ngFor="let materia of im[0]" class="list-group-item list-group-item-action" id="list-home-list" data-toggle="list" role="tab" aria-controls="home">
+                            <div class="input-group mb-3">
+                                {{materia.nombre}}
+                            </div>
+                          </a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <aside id="M2">
+                <h5>Ciclo II</h5>
+                <div class="row">
+                    <div class="col-4">
+                        <div class="list-group" id="list-tab" role="tablist">
+                          <a *ngFor="let materia of im[1]" class="list-group-item list-group-item-action" id="list-home-list" data-toggle="list" role="tab" aria-controls="home">
+                            <div class="input-group mb-3">
+                                {{materia.nombre}}
+                            </div>
+                          </a>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+            <aside id="M3">
+                <h5>Ciclo III</h5>
+                <div class="row">
+                    <div class="col-4">
+                        <div class="list-group" id="list-tab" role="tablist">
+                          <a *ngFor="let materia of im[2]" class="list-group-item list-group-item-action" id="list-home-list" data-toggle="list" role="tab" aria-controls="home">
+                            <div class="input-group mb-3">
+                                {{materia.nombre}}
+                            </div>
+                          </a>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </section>
+    </article>
+</div>
